@@ -1,0 +1,12 @@
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+
+    .middle-menu{
+       display:none;
+    }
+
+    .right-menu .nav-item:nth-child(1),
+    .right-menu .nav-item:nth-child(2) {
+      display: none;
+    }  
+}
